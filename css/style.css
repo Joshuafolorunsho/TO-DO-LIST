@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+table,
+.to-do-list {
+	border: 1px solid black;
+	width: 70%;
+	margin: 30px auto;
+	padding: 20px;
+}
+
+.to-do {
+	font-size: 2.5em;
+	font-weight: 600;
+	text-align: center;
+	margin: 20px 0px;
+	color: #3182ce;
+}
+input {
+	width: 50%;
+	height: 45px;
+	padding: 6px 8px;
+	outline: 0px;
+	border-radius: 8px;
+}
+
+button {
+	cursor: pointer;
+	width: 85px;
+	height: 40px;
+	background-color: #3182ce;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 20px;
+	float: right;
+}
+.delete-btn {
+	float: right;
+	background-color: red;
+	width: 85px;
+}
+
+ul {
+	margin-top: 19px;
+}
+
+li {
+	font-size: 1.4em;
+	margin-bottom: 30px;
+}
+
+@media screen and (min-width: 800px) {
+	.cta:hover {
+		background-color: rgba(49, 130, 206, 0.8);
+	}
+}
