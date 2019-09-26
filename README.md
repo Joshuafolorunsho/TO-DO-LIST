@@ -7,7 +7,7 @@ Hey there, welcome to our TO-DO-List open source project. Redesign the HTML land
 - Fork the repository, clone and make sure you are not working on the `master branch`
 
 ```bash
-git clone https://github.com/joshuafolorunsho/to-do-list.git
+git clone https://github.com/{your-github-username}/to-do-list.git
 ```
 
 ```bash
