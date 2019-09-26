@@ -1,4 +1,4 @@
-# HTML-project
+# TO-D0-LIST-PROJECT
 
 Hey there, welcome to our TO-DO-List open source project. Redesign the HTML landing and have fun doing it. Happy coding :)
 
