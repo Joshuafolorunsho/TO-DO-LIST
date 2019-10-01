@@ -11,7 +11,7 @@ function addToList(event) {
 
 	deleteBtn.className = 'delete-btn'; // <button class="delete-btn"></button>
 	deleteBtn.innerText = 'delete'; //<button class="delete-btn">delete</button>
-	li.innerText = input.value; //
+	li.innerText = input.value;
 
 	// Testing if text field is not empty
 	if (input.value.length > 0) {
