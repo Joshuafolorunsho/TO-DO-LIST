@@ -24,7 +24,7 @@ input {
 	height: 45px;
 	padding: 6px 8px;
 	outline: 0px;
-	border:none;
+	border: none;
 	border-bottom: 1px solid black;
 }
 
@@ -58,22 +58,25 @@ li {
 		background-color: rgba(49, 130, 206, 0.8);
 	}
 
-	*{
+	* {
 		font-size: 15px;
 	}
 
 	input {
 		width: 300px;
-		height: 45px;		
+		height: 45px;
 	}
-	
+
 	button {
 		border-radius: 3px;
 		padding: 5px 20px;
 		float: right;
 	}
+	.smallersize {
+		font-size: 1rem;
+	}
 	table,
 	.to-do-list {
-	width: 95%;
-}
+		width: 95%;
+	}
 }
