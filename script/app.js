@@ -15,6 +15,7 @@ function addToList(event) {
 
 	// Testing if text field is not empty
 	if (input.value.length > 0) {
+		li.classList.add('smallersize');
 		li.appendChild(deleteBtn);
 		ul.appendChild(li);
 		input.value = '';
